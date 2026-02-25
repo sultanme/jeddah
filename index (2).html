@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>مسجل عقاري جدة | خدمة فورية للتسجيل العيني ونقل الحقوق العقارية</title>
+<meta name="description" content="مسجل عقاري معتمد في جدة يقدم خدمة فورية للبيع، الهبة، الرهن، حق الانتفاع، حق الارتفاق، حق الشفعة، الإيجار والتسجيل العيني داخل مدينة جدة. تواصل عبر واتساب الآن.">
+<meta name="keywords" content="مسجل عقاري جدة, مسجل عقاري في جدة, تسجيل عيني جدة, خدمة فورية مسجل عقاري جدة">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="">
+<meta property="og:title" content="مسجل عقاري جدة | خدمة فورية للتسجيل العيني ونقل الحقوق العقارية">
+<meta property="og:description" content="مسجل عقاري معتمد في جدة يقدم خدمة فورية للبيع، الهبة، الرهن، حق الانتفاع، حق الارتفاق، حق الشفعة، الإيجار والتسجيل العيني داخل مدينة جدة.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&family=Noto+Kufi+Arabic:wght@700;800;900&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --navy:#0a1628;
+  --navy-light:#0f2140;
+  --navy-mid:#162d50;
+  --blue:#1a5cff;
+  --blue-glow:#2d6fff;
+  --gold:#c9a84c;
+  --gold-light:#e0c068;
+  --white:#ffffff;
+  --gray:#94a3b8;
+  --gray-light:#cbd5e1;
+  --green:#25d366;
+  --green-dark:#1da851;
+  --green-glow:#25d36640;
+  --text:#e2e8f0;
+  --radius:14px;
+}
+html{scroll-behavior:smooth;font-size:16px}
+body{
+  font-family:'IBM Plex Sans Arabic',sans-serif;
+  background:var(--navy);
+  color:var(--text);
+  line-height:1.8;
+  overflow-x:hidden;
+}
+h1,h2,h3{font-family:'Noto Kufi Arabic','IBM Plex Sans Arabic',sans-serif;line-height:1.4}
+
+/* Utility */
+.container{max-width:1100px;margin:0 auto;padding:0 24px}
+.section{padding:80px 0}
+.text-center{text-align:center}
+
+/* Floating WhatsApp */
+.float-wa{
+  position:fixed;bottom:28px;left:28px;z-index:999;
+  width:64px;height:64px;border-radius:50%;
+  background:var(--green);
+  display:flex;align-items:center;justify-content:center;
+  box-shadow:0 4px 24px var(--green-glow),0 0 0 0 var(--green-glow);
+  animation:waPulse 2s infinite;
+  text-decoration:none;transition:transform .2s;
+}
+.float-wa:hover{transform:scale(1.1)}
+.float-wa svg{width:34px;height:34px;fill:#fff}
+@keyframes waPulse{
+  0%{box-shadow:0 4px 24px var(--green-glow),0 0 0 0 rgba(37,211,102,.4)}
+  70%{box-shadow:0 4px 24px var(--green-glow),0 0 0 20px rgba(37,211,102,0)}
+  100%{box-shadow:0 4px 24px var(--green-glow),0 0 0 0 rgba(37,211,102,0)}
+}
+
+/* Top Bar */
+.topbar{
+  background:var(--navy-light);
+  border-bottom:1px solid rgba(255,255,255,.06);
+  padding:12px 0;
+  text-align:center;
+  font-size:.85rem;color:var(--gray);
+}
+.topbar span{color:var(--gold);font-weight:600}
+
+/* NAV */
+.nav{
+  position:sticky;top:0;z-index:100;
+  background:rgba(10,22,40,.85);
+  backdrop-filter:blur(20px);
+  -webkit-backdrop-filter:blur(20px);
+  border-bottom:1px solid rgba(255,255,255,.06);
+  padding:16px 0;
+}
+.nav-inner{display:flex;align-items:center;justify-content:space-between}
+.logo{font-family:'Noto Kufi Arabic',sans-serif;font-size:1.25rem;font-weight:800;color:var(--white);text-decoration:none}
+.logo em{font-style:normal;color:var(--gold)}
+.nav-cta{
+  background:var(--green);color:#fff;padding:10px 24px;border-radius:40px;
+  text-decoration:none;font-weight:600;font-size:.9rem;
+  display:inline-flex;align-items:center;gap:8px;
+  transition:background .2s,transform .2s;
+}
+.nav-cta:hover{background:var(--green-dark);transform:translateY(-1px)}
+.nav-cta svg{width:18px;height:18px;fill:#fff}
+
+/* HERO */
+.hero{
+  position:relative;
+  padding:100px 0 80px;
+  background:
+    radial-gradient(ellipse 70% 50% at 30% 20%,rgba(26,92,255,.12),transparent),
+    radial-gradient(ellipse 50% 60% at 80% 80%,rgba(201,168,76,.08),transparent),
+    var(--navy);
+  overflow:hidden;
+}
+.hero::before{
+  content:'';position:absolute;top:-200px;right:-200px;
+  width:500px;height:500px;border-radius:50%;
+  background:radial-gradient(circle,rgba(26,92,255,.08),transparent 70%);
+  pointer-events:none;
+}
+.hero-badge{
+  display:inline-block;
+  background:rgba(201,168,76,.12);border:1px solid rgba(201,168,76,.3);
+  color:var(--gold-light);font-size:.85rem;font-weight:600;
+  padding:6px 20px;border-radius:40px;margin-bottom:24px;
+  animation:fadeUp .6s ease both;
+}
+.hero h1{
+  font-size:clamp(2rem,5vw,3.2rem);
+  font-weight:900;color:var(--white);
+  margin-bottom:20px;
+  animation:fadeUp .6s .1s ease both;
+}
+.hero h1 em{font-style:normal;color:var(--gold)}
+.hero-sub{
+  font-size:1.15rem;color:var(--gray-light);
+  max-width:680px;margin:0 auto 16px;
+  animation:fadeUp .6s .2s ease both;
+}
+.hero-urgency{
+  display:inline-block;
+  background:rgba(255,59,48,.1);border:1px solid rgba(255,59,48,.25);
+  color:#ff6b6b;font-size:.95rem;font-weight:600;
+  padding:8px 24px;border-radius:8px;margin:20px 0 32px;
+  animation:fadeUp .6s .3s ease both;
+}
+.hero-urgency::before{content:'⚡ '}
+.wa-btn{
+  display:inline-flex;align-items:center;gap:10px;
+  background:var(--green);color:#fff;
+  padding:18px 48px;border-radius:50px;
+  font-size:1.15rem;font-weight:700;
+  text-decoration:none;
+  box-shadow:0 8px 32px var(--green-glow);
+  transition:all .25s;
+  animation:fadeUp .6s .4s ease both;
+}
+.wa-btn:hover{background:var(--green-dark);transform:translateY(-2px);box-shadow:0 12px 40px var(--green-glow)}
+.wa-btn svg{width:24px;height:24px;fill:#fff}
+.wa-micro{
+  display:block;margin-top:12px;
+  font-size:.82rem;color:var(--gray);
+  animation:fadeUp .6s .5s ease both;
+}
+
+/* Stats */
+.stats{
+  display:grid;grid-template-columns:repeat(3,1fr);gap:20px;
+  margin-top:60px;
+  animation:fadeUp .6s .5s ease both;
+}
+.stat{
+  background:rgba(255,255,255,.03);
+  border:1px solid rgba(255,255,255,.06);
+  border-radius:var(--radius);padding:24px;text-align:center;
+}
+.stat-num{font-family:'Noto Kufi Arabic',sans-serif;font-size:1.8rem;font-weight:800;color:var(--gold)}
+.stat-label{font-size:.85rem;color:var(--gray);margin-top:4px}
+
+/* SERVICES */
+.services{background:var(--navy-light)}
+.section-label{
+  display:inline-block;
+  background:rgba(26,92,255,.1);border:1px solid rgba(26,92,255,.25);
+  color:var(--blue-glow);font-size:.82rem;font-weight:600;letter-spacing:.5px;
+  padding:6px 18px;border-radius:40px;margin-bottom:16px;
+}
+.section-title{font-size:clamp(1.6rem,3.5vw,2.2rem);font-weight:800;color:var(--white);margin-bottom:12px}
+.section-desc{color:var(--gray);max-width:600px;margin:0 auto 48px;font-size:1rem}
+.services-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px}
+.srv-card{
+  background:rgba(255,255,255,.025);
+  border:1px solid rgba(255,255,255,.06);
+  border-radius:var(--radius);padding:28px 24px;
+  transition:all .3s;position:relative;overflow:hidden;
+}
+.srv-card:hover{
+  border-color:rgba(201,168,76,.3);
+  background:rgba(201,168,76,.04);
+  transform:translateY(-3px);
+}
+.srv-icon{
+  width:48px;height:48px;border-radius:12px;
+  background:rgba(26,92,255,.1);
+  display:flex;align-items:center;justify-content:center;
+  margin-bottom:16px;font-size:1.3rem;
+}
+.srv-card:hover .srv-icon{background:rgba(201,168,76,.12)}
+.srv-name{font-weight:700;font-size:1.05rem;color:var(--white);margin-bottom:6px}
+.srv-desc{font-size:.88rem;color:var(--gray);line-height:1.7}
+
+/* WHY US */
+.why{position:relative}
+.why-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:20px}
+.why-card{
+  padding:32px 28px;border-radius:var(--radius);
+  background:linear-gradient(135deg,rgba(255,255,255,.03),rgba(255,255,255,.01));
+  border:1px solid rgba(255,255,255,.06);
+  transition:all .3s;
+}
+.why-card:hover{border-color:rgba(26,92,255,.3);transform:translateY(-2px)}
+.why-icon{font-size:1.6rem;margin-bottom:12px;display:block}
+.why-title{font-weight:700;color:var(--white);margin-bottom:6px;font-size:1rem}
+.why-text{font-size:.88rem;color:var(--gray);line-height:1.7}
+
+/* URGENCY */
+.urgency{
+  background:
+    linear-gradient(135deg,rgba(26,92,255,.06),rgba(201,168,76,.06)),
+    var(--navy-light);
+}
+.urgency-box{
+  max-width:720px;margin:0 auto;text-align:center;
+  background:rgba(255,255,255,.02);
+  border:1px solid rgba(201,168,76,.2);
+  border-radius:20px;padding:48px 32px;
+  position:relative;overflow:hidden;
+}
+.urgency-box::before{
+  content:'';position:absolute;top:-60px;left:50%;transform:translateX(-50%);
+  width:300px;height:120px;
+  background:radial-gradient(ellipse,rgba(201,168,76,.1),transparent);
+  pointer-events:none;
+}
+.urgency h2{font-size:clamp(1.5rem,3vw,2rem);color:var(--white);margin-bottom:16px}
+.urgency p{color:var(--gray-light);margin-bottom:8px;font-size:1rem}
+.urgency-list{
+  list-style:none;padding:0;margin:24px auto;max-width:420px;text-align:right;
+}
+.urgency-list li{
+  padding:10px 0;font-size:.95rem;color:var(--text);
+  border-bottom:1px solid rgba(255,255,255,.04);
+  display:flex;align-items:center;gap:10px;
+}
+.urgency-list li::before{
+  content:'✓';display:inline-flex;align-items:center;justify-content:center;
+  min-width:26px;height:26px;border-radius:50%;
+  background:rgba(37,211,102,.12);color:var(--green);
+  font-size:.8rem;font-weight:700;
+}
+
+/* FAQ */
+.faq{background:var(--navy)}
+.faq-list{max-width:720px;margin:0 auto}
+.faq-item{
+  border:1px solid rgba(255,255,255,.06);
+  border-radius:var(--radius);margin-bottom:12px;
+  overflow:hidden;background:rgba(255,255,255,.02);
+}
+.faq-q{
+  width:100%;display:flex;align-items:center;justify-content:space-between;
+  padding:20px 24px;cursor:pointer;
+  background:none;border:none;color:var(--white);
+  font-family:'IBM Plex Sans Arabic',sans-serif;font-size:1rem;font-weight:600;
+  text-align:right;transition:background .2s;
+}
+.faq-q:hover{background:rgba(255,255,255,.03)}
+.faq-q .arrow{
+  transition:transform .3s;font-size:.8rem;color:var(--gold);
+  min-width:24px;text-align:center;
+}
+.faq-item.open .faq-q .arrow{transform:rotate(180deg)}
+.faq-a{
+  max-height:0;overflow:hidden;transition:max-height .35s ease,padding .35s ease;
+  padding:0 24px;
+}
+.faq-item.open .faq-a{max-height:200px;padding:0 24px 20px}
+.faq-a p{font-size:.92rem;color:var(--gray-light);line-height:1.8}
+
+/* FINAL CTA */
+.final-cta{
+  background:
+    linear-gradient(180deg,var(--navy-light),var(--navy));
+  text-align:center;
+}
+.final-cta h2{font-size:clamp(1.5rem,3.5vw,2.2rem);color:var(--white);margin-bottom:12px}
+.final-cta p{color:var(--gray-light);margin-bottom:32px;font-size:1.05rem}
+
+/* FOOTER */
+.footer{
+  background:var(--navy);
+  border-top:1px solid rgba(255,255,255,.04);
+  padding:32px 0;text-align:center;
+  font-size:.82rem;color:var(--gray);
+}
+
+/* Animations */
+@keyframes fadeUp{
+  from{opacity:0;transform:translateY(24px)}
+  to{opacity:1;transform:translateY(0)}
+}
+.reveal{opacity:0;transform:translateY(30px);transition:all .6s ease}
+.reveal.visible{opacity:1;transform:translateY(0)}
+
+/* Mobile */
+@media(max-width:768px){
+  .section{padding:56px 0}
+  .stats{grid-template-columns:1fr}
+  .services-grid{grid-template-columns:1fr}
+  .why-grid{grid-template-columns:1fr}
+  .wa-btn{padding:16px 36px;font-size:1.05rem}
+  .hero{padding:72px 0 56px}
+  .urgency-box{padding:36px 20px}
+  .nav-cta span{display:none}
+  .float-wa{width:56px;height:56px;bottom:20px;left:20px}
+  .float-wa svg{width:28px;height:28px}
+}
+</style>
+</head>
+<body>
+
+<!-- Floating WhatsApp -->
+<a href="https://wa.me/966552404104" target="_blank" rel="noopener" class="float-wa" aria-label="تواصل عبر واتساب">
+  <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+<!-- Top Bar -->
+<div class="topbar">
+  <div class="container">
+    مسجل عقاري معتمد في جدة — <span>خدمة فورية داخل جميع أحياء جدة</span>
+  </div>
+</div>
+
+<!-- Nav -->
+<nav class="nav">
+  <div class="container nav-inner">
+    <a href="#" class="logo">مسجل <em>عقاري</em> جدة</a>
+    <a href="https://wa.me/966552404104" target="_blank" rel="noopener" class="nav-cta">
+      <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      <span>تواصل الآن</span>
+    </a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero text-center">
+  <div class="container">
+    <span class="hero-badge">✦ مسجل عقاري معتمد في جدة</span>
+    <h1>مسجل عقاري معتمد في جدة – <em>خدمة فورية</em></h1>
+    <p class="hero-sub">
+      نُنهي معاملاتك العقارية بدقة وسرعة وفق الأنظمة المعتمدة في المملكة العربية السعودية.
+      تسجيل عيني، نقل ملكية، وتوثيق الحقوق العقارية داخل مدينة جدة.
+    </p>
+    <div class="hero-urgency">إنهاء المعاملة بأسرع وقت ممكن داخل جدة</div>
+    <br>
+    <a href="https://wa.me/966552404104" target="_blank" rel="noopener" class="wa-btn">
+      <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      تواصل عبر واتساب الآن
+    </a>
+    <span class="wa-micro">الرد خلال دقائق — 0552404104</span>
+
+    <div class="stats">
+      <div class="stat">
+        <div class="stat-num">10+</div>
+        <div class="stat-label">خدمات عقارية متكاملة</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">جدة</div>
+        <div class="stat-label">تغطية جميع الأحياء</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">فوري</div>
+        <div class="stat-label">إنجاز بأسرع وقت</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services section" id="services">
+  <div class="container text-center">
+    <span class="section-label">خدماتنا العقارية</span>
+    <h2 class="section-title">خدمات التسجيل العقاري في جدة</h2>
+    <p class="section-desc">نقدم جميع خدمات التوثيق والتسجيل العيني ونقل الحقوق العقارية بشكل نظامي ومعتمد داخل مدينة جدة</p>
+
+    <div class="services-grid">
+      <div class="srv-card reveal">
+        <div class="srv-icon">📋</div>
+        <div class="srv-name">بيع</div>
+        <div class="srv-desc">توثيق ونقل الملكية العقارية بشكل نظامي ومعتمد، مع ضمان استيفاء جميع الشروط والإجراءات القانونية المطلوبة.</div>
+      </div>
+      <div class="srv-card reveal">
+        <div class="srv-icon">🎁</div>
+        <div class="srv-name">هبة</div>
+        <div class="srv-desc">نقل الملكية العقارية بدون مقابل مالي وفق الإجراءات النظامية المعتمدة، مع توثيق كامل للمعاملة.</div>
+      </div>
+      <div class="srv-card reveal">
+        <div class="srv-icon">🏦</div>
+        <div class="srv-name">رهن</div>
+        <div class="srv-desc">تسجيل الرهن العقاري رسمياً لدى الجهات المختصة، مع ضمان حماية حقوق جميع الأطراف.</div>
+      </div>
+      <div class="srv-card reveal">
+        <div class="srv-icon">🔑</div>
+        <div class="srv-name">حق انتفاع</div>
+        <div class="srv-desc">توثيق وتسجيل حق الانتفاع بالعقار بما يكفل حقوق المنتفع والمالك وفقاً للأنظمة المرعية.</div>
+      </div>
+      <div class="srv-card reveal">
+        <div class="srv-icon">🛤️</div>
+        <div class="srv-name">حق ارتفاق</div>
+        <div class="srv-desc">تسجيل حق الارتفاق العقاري الذي يُقيّد ملكية عقار لمصلحة عقار آخر وفق الإطار النظامي.</div>
+      </div>
+      <div class="srv-card reveal">
+        <div class="srv-icon">⚖️</div>
+        <div class="srv-name">حق شفعة</div>
+        <div class="srv-desc">توثيق وتسجيل حق الشفعة لضمان حق الشريك أو الجار في استرداد العقار المبيع بالشروط النظامية.</div>
+      </div>
+      <div class="srv-card reveal">
+        <div class="srv-icon">📝</div>
+        <div class="srv-name">إيجار</div>
+        <div class="srv-desc">توثيق عقود الإيجار العقاري رسمياً وتسجيلها لحماية حقوق المؤجر والمستأجر.</div>
+      </div>
+      <div class="srv-card reveal">
+        <div class="srv-icon">🏠</div>
+        <div class="srv-name">حق سكنى</div>
+        <div class="srv-desc">تسجيل حق السكنى الذي يخوّل صاحبه الإقامة في العقار دون التصرف فيه، وفق الأنظمة المعتمدة.</div>
+      </div>
+      <div class="srv-card reveal">
+        <div class="srv-icon">⚙️</div>
+        <div class="srv-name">حق استعمال</div>
+        <div class="srv-desc">توثيق حق استعمال العقار بما يحدد نطاق الاستخدام المسموح به وفقاً للضوابط النظامية.</div>
+      </div>
+      <div class="srv-card reveal">
+        <div class="srv-icon">🏗️</div>
+        <div class="srv-name">التسجيل العيني الأول</div>
+        <div class="srv-desc">خدمة التسجيل العيني الأول للعقارات في جدة، تشمل إعداد وتقديم الطلب وإنهاء الإجراءات لدى الجهات المختصة.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section class="why section" id="why">
+  <div class="container text-center">
+    <span class="section-label">لماذا تختارنا</span>
+    <h2 class="section-title">مسجل عقاري جدة تثق به</h2>
+    <p class="section-desc">نقدم خدمة عقارية متميزة تجمع بين الخبرة والسرعة والالتزام التام بالأنظمة</p>
+
+    <div class="why-grid">
+      <div class="why-card reveal">
+        <span class="why-icon">📚</span>
+        <div class="why-title">خبرة في الأنظمة العقارية</div>
+        <div class="why-text">معرفة عميقة بأنظمة التسجيل العيني والحقوق العقارية في المملكة العربية السعودية وتطبيقاتها العملية.</div>
+      </div>
+      <div class="why-card reveal">
+        <span class="why-icon">✅</span>
+        <div class="why-title">التزام بالإجراءات النظامية</div>
+        <div class="why-text">نعمل وفق الأطر القانونية المعتمدة لضمان صحة جميع المعاملات وحماية حقوقك الكاملة.</div>
+      </div>
+      <div class="why-card reveal">
+        <span class="why-icon">⚡</span>
+        <div class="why-title">سرعة الإنجاز</div>
+        <div class="why-text">نحرص على إنهاء معاملتك بأسرع وقت ممكن دون التفريط في الدقة والجودة المطلوبة.</div>
+      </div>
+      <div class="why-card reveal">
+        <span class="why-icon">🔍</span>
+        <div class="why-title">وضوح كامل في الخطوات</div>
+        <div class="why-text">نشرح لك كل خطوة بشفافية من البداية حتى إتمام المعاملة، فلا مفاجآت ولا رسوم مخفية.</div>
+      </div>
+      <div class="why-card reveal">
+        <span class="why-icon">📍</span>
+        <div class="why-title">تغطية شاملة لجدة</div>
+        <div class="why-text">خدماتنا تشمل جميع أحياء مدينة جدة بدون استثناء، نصل إليك أينما كنت داخل المدينة.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- URGENCY & TRUST -->
+<section class="urgency section">
+  <div class="container">
+    <div class="urgency-box reveal">
+      <h2>لا تؤجل حماية حقوقك العقارية</h2>
+      <p>كل يوم تأخير في إتمام التسجيل العيني أو توثيق حقوقك العقارية قد يعرّضك لمخاطر قانونية ومالية.</p>
+      <ul class="urgency-list">
+        <li>تجنّب التأخير الذي قد يعقّد إجراءاتك لاحقاً</li>
+        <li>ضمان اكتمال جميع الإجراءات النظامية بشكل صحيح</li>
+        <li>حماية حقوقك العقارية من أي نزاعات مستقبلية</li>
+        <li>إنجاز المعاملة بسرعة واحترافية داخل جدة</li>
+      </ul>
+      <a href="https://wa.me/966552404104" target="_blank" rel="noopener" class="wa-btn" style="margin-top:24px">
+        <svg viewBox="0 0 24 24" style="width:22px;height:22px;fill:#fff"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        ابدأ معاملتك الآن
+      </a>
+      <span class="wa-micro" style="margin-top:10px;display:block">واتساب مباشر — الرد فوري</span>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq section" id="faq">
+  <div class="container text-center">
+    <span class="section-label">أسئلة شائعة</span>
+    <h2 class="section-title">إجابات على استفساراتك</h2>
+    <p class="section-desc">أهم الأسئلة التي يطرحها عملاؤنا حول خدمات التسجيل العقاري في جدة</p>
+
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-q" onclick="this.parentElement.classList.toggle('open')">
+          <span>كم تستغرق المعاملة العقارية؟</span>
+          <span class="arrow">▼</span>
+        </button>
+        <div class="faq-a">
+          <p>تختلف المدة حسب نوع المعاملة ومتطلباتها، لكننا نحرص على إنهاء الإجراءات بأسرع وقت ممكن. تواصل معنا عبر واتساب لتقييم معاملتك وتحديد المدة المتوقعة بدقة.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="this.parentElement.classList.toggle('open')">
+          <span>هل يمكن إنهاء المعاملة في نفس اليوم؟</span>
+          <span class="arrow">▼</span>
+        </button>
+        <div class="faq-a">
+          <p>نعم، بعض المعاملات يمكن إنجازها في نفس اليوم إذا كانت المستندات المطلوبة مكتملة. نعمل على تسريع العملية قدر الإمكان مع الحفاظ على الدقة النظامية.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="this.parentElement.classList.toggle('open')">
+          <span>ما متطلبات بدء التسجيل العيني؟</span>
+          <span class="arrow">▼</span>
+        </button>
+        <div class="faq-a">
+          <p>تشمل المتطلبات الأساسية: صك الملكية، الهوية الوطنية أو الإقامة، ومستندات إضافية حسب نوع المعاملة. تواصل معنا عبر واتساب وسنحدد لك المتطلبات بدقة.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="this.parentElement.classList.toggle('open')">
+          <span>هل الخدمة تشمل جميع أحياء جدة؟</span>
+          <span class="arrow">▼</span>
+        </button>
+        <div class="faq-a">
+          <p>نعم، نقدم خدمات التسجيل العقاري في جميع أحياء مدينة جدة بدون استثناء. أينما كان موقع عقارك داخل جدة، نحن جاهزون لخدمتك.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="final-cta section">
+  <div class="container">
+    <h2>تواصل الآن عبر واتساب لإنهاء معاملتك فوراً</h2>
+    <p>مسجل عقاري معتمد في جدة جاهز لخدمتك – ابدأ الآن ولا تنتظر</p>
+    <a href="https://wa.me/966552404104" target="_blank" rel="noopener" class="wa-btn">
+      <svg viewBox="0 0 24 24" style="width:22px;height:22px;fill:#fff"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      تواصل عبر واتساب — 0552404104
+    </a>
+    <span class="wa-micro" style="margin-top:12px;display:block">خدمة فورية — مسجل عقاري معتمد في جدة</span>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <p>مسجل عقاري معتمد في جدة — جميع الحقوق محفوظة © 2026</p>
+    <p style="margin-top:6px">للتواصل: واتساب <a href="https://wa.me/966552404104" style="color:var(--gold);text-decoration:none">0552404104</a></p>
+  </div>
+</footer>
+
+<!-- Scroll Reveal -->
+<script>
+(function(){
+  const els = document.querySelectorAll('.reveal');
+  const obs = new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{
+      if(e.isIntersecting){e.target.classList.add('visible');obs.unobserve(e.target)}
+    });
+  },{threshold:0.15});
+  els.forEach(el=>obs.observe(el));
+})();
+</script>
+
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LegalService",
+  "name": "مسجل عقاري جدة",
+  "description": "مسجل عقاري معتمد في جدة يقدم خدمة فورية للبيع، الهبة، الرهن، حق الانتفاع، حق الارتفاق، حق الشفعة، الإيجار والتسجيل العيني",
+  "areaServed": {
+    "@type": "City",
+    "name": "جدة"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "جدة",
+    "addressRegion": "منطقة مكة المكرمة",
+    "addressCountry": "SA"
+  },
+  "telephone": "+966552404104",
+  "url": "https://wa.me/966552404104",
+  "serviceType": ["تسجيل عقاري","تسجيل عيني","نقل ملكية","رهن عقاري","توثيق حقوق عقارية"]
+}
+</script>
+</body>
+</html>
